@@ -429,7 +429,7 @@ class Display:
     WIDTH = 1280
     HEIGHT = 720
     FPS = 60
-    TITLE = b"Game"
+    TITLE = b"Space Surfers"
     displayWinID = 0
 
     @staticmethod
