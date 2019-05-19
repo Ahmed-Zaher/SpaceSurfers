@@ -35,7 +35,7 @@ class gameIntro:
         pygame.init()
         gameIntro.background = pygame.image.load("ui_background.JPG")
         gameIntro.gameDisplay = pygame.display.set_mode((gameIntro.displayWidth, gameIntro.displayHeight))
-        pygame.display.set_caption("Game")
+        pygame.display.set_caption("Space Surfers")
         gameIntro.smallFont = pygame.font.SysFont("Ubuntu Medium", 20)
         gameIntro.medFont = pygame.font.SysFont("Ubuntu Medium", 50)
         gameIntro.largeFont = pygame.font.SysFont("Ubuntu Medium", 50)
