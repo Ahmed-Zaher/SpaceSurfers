@@ -21,7 +21,6 @@ class GameState:
     def processState():
         if GameState.currState == GameState.QUIT:
             BarrierGenerator.clean()
-            BarrierGenerator.init()
             Ball.clean()
             exit(0)
         if GameState.currState == GameState.GAME_OVER:
